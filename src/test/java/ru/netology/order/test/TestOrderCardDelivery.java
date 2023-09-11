@@ -1,8 +1,8 @@
-package ru.netology.order;
+package ru.netology.order.test;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import ru.netology.delivery.data.DataGenerator;
+import ru.netology.order.data.DataGenerator;
 
 import static com.codeborne.selenide.Selenide.open;
 public class TestOrderCardDelivery {
